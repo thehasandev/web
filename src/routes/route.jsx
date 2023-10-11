@@ -5,6 +5,7 @@ import Widrow from '../components/Widrow';
 import Payment from '../components/Payment';
 import Affiliate from '../components/Affiliate';
 import Configer from '../components/Configer';
+import AffliateUsers from "../components/AffliateUsers"
 
 const router = createBrowserRouter([
     {
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
     {
       path: "/configer-setting",
       element:<Configer/>,
+    },
+    {
+      path: "/affilate-users",
+      element:<AffliateUsers/>,
     },
   ]);
 
